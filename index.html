@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./rest.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>
+            Password Generator
+        </h1>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2 class="h2Space">Generate a Password</h2>
+            <hr>
+            <textarea readonly name="password" id="pass" placeholder="Your Secure Password"></textarea>
+            <hr>
+            <div class="gridContainer">
+                <button id="generate" active>Generate Password</button>
+                <div></div>
+                <button id="copy" disabled>Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+    <script src="./action.js"></script>
+</body>
+
+</html>
